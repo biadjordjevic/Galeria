@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo do documento */
+    background-image: url('imagens/imagens/bcground.jpg');
+    background-repeat: repeat; /* Evita que a imagem se repita */
+    background-attachment: fixed; /* Faz com que a imagem de fundo permaneça fixa durante o scroll */
+    background-position: center; /* Centraliza a imagem de fundo */
+    color: #333; /* Define a cor do texto principal */
+    padding: 10px 20px; /* Espaçamento interno */
+    margin: 5%;
+}
+h1{
+    font-family:monospace;
+    font-size: 50px;
+    text-align: start;
+   margin-left: 10%;
+}
+
+h3{
+    font-family:monospace;
+    margin-right: 60%;
+    text-align: start;
+   margin-left: 10%;
+    color: #a80000c7;
+}
+
+
+img {
+    border: 2px  black;
+    border-radius: 20px;
+    height: 250px;
+    width: 100%;
+    vertical-align: middle;
+    margin-left: 10%;
+    margin-top: 3%;
+    box-shadow: 5px 10px rgba(85, 85, 85, 0.384);
+   
+}
+
+.bloco{
+    border: 5px solid rgb(139, 135, 135); /* Adiciona uma borda preta de 5px ao redor do contêiner */
+    border-radius: 10px;
+    background-color:rgb(139, 135, 135) ;
+    margin: 10px; /* Adiciona uma margem ao redor do contêiner */
+    padding: 10px; /* Adiciona um pouco de preenchimento dentro da borda */
+}
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 70px;
+        
+
+    }
+
+    img:hover{
+    
+        box-shadow: 5px 10px 5px  rgb(51, 51, 51);
+    }
+
+    
+    
